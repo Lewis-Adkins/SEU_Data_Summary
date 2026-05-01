@@ -1,11 +1,13 @@
-# SEU_Data_Summary
+# SWLG_Code Summary
 
 ## Data Files 
-**anomj5** - contains LLA, and time of SEUs as well as other anomlies between many different satellites<br>
-**tdrsj5** - contains LLA, and time of SEUs<br>
-**goes** - contains timstamps of SEUs<br>
+**Location:** SWLG_Code/code/data
 
-## TDRS-5 Satellite
+### SEU - Timestamps and Geolocation
+
+**Location**: SWLG_Code/code/data/seu_timestamp 
+
+#### TDRS-5 Satellite
 
 **Description:** NCEI created the satellite anomalies database from external data in an effort to more clearly understand and document how space weather events affected satellites. <br>
 Connecting individual anomalies to space weather events is a complex task that typically requires collaboration between satellite operators, engineers, and space weather subject matter experts. The information <br>produced in that discourse can be difficult to obtain.<br>
@@ -16,7 +18,7 @@ Connecting individual anomalies to space weather events is a complex task that t
 
 TDRS-5 Satellite
 
-## TDRS-1 Satellite 
+#### TDRS-1 Satellite 
 
 **Description:** NCEI created the satellite anomalies database from external data in an effort to more clearly understand and document how space weather events affected satellites. 
 Connecting individual anomalies to space weather events is a complex task that typically requires collaboration between satellite operators, engineers, and space weather subject matter experts. The information produced in that discourse can be difficult to obtain.
@@ -25,7 +27,7 @@ Connecting individual anomalies to space weather events is a complex task that t
 
 **Paper:** [[Lohmeyer 2013]]<br>
 
-## GOES-16 Satellite
+#### GOES-16 Satellite
 
 **Description:** NCEI created the satellite anomalies database from external data in an effort to more clearly understand and document how space weather events affected satellites. 
 Connecting individual anomalies to space weather events is a complex task that typically requires collaboration between satellite operators, engineers, and space weather subject matter experts. The information produced in that discourse can be difficult to obtain.
@@ -34,7 +36,7 @@ Connecting individual anomalies to space weather events is a complex task that t
 
 **Paper:** [[Lohmeyer 2018]]
 
-## GOES-17 Satellite
+#### GOES-17 Satellite
 
 **Description:** NCEI created the satellite anomalies database from external data in an effort to more clearly understand and document how space weather events affected satellites. 
 Connecting individual anomalies to space weather events is a complex task that typically requires collaboration between satellite operators, engineers, and space weather subject matter experts. The information produced in that discourse can be difficult to obtain.
@@ -42,13 +44,23 @@ Connecting individual anomalies to space weather events is a complex task that t
 **Data:** [GOES-16 and GOES-17 EXIS Space Wire anomalies](https://www.ncei.noaa.gov/products/satellite-anomalies) 
 
 **Paper:** [[Lohmeyer 2018]]
-## Flying Laptop Satellite
+#### Flying Laptop Satellite
 
 **Description**: Single Event Upset Data with Position Data used in "Single Event Upsets in flight observation and analysis for the “Flying Laptop” small satellite". Data measured by the FLP UT-699 Onboard Computer. (2019-06-27)
 
 **Data:** [Flying Laptop SEU Data](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-443) 
 
 **Paper:** [[Noeldeke 2021]]
+
+### Space Enviromental Data
+
+**Location: ** SWLG_Code/code/data/enviromental
+
+#### SOHO/EPHIN - Proton
+Description: Interface to produce plots, listings or output files from SOHO Proton and Helium Instrument (EPHIN, level3), hour averages
+
+Data:  https://omniweb.gsfc.nasa.gov/ftpbrowser/soho_ephin_flux_hr.html
+Paper: [[Torres 2025]]
 
 # Telemetry Data
 
