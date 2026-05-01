@@ -4,7 +4,7 @@
 
 **Location**: SWLG_Code/code
 
-seu_geo_temporal.ipynb - marks the geolocation and temporal occurences of SEUs
+seu_geo_temporal.ipynb - marks the geolocation and temporal occurences of SEUs <br>
 seu_predict_ml.ipynb - characterizes proton flux data to be fred into machine learning model.
 
 
